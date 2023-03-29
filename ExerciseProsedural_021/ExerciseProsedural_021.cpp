@@ -20,11 +20,13 @@ int main() {
 	for (int i = 0; i < 20; i++) {
 		float rata_rata = (nilai_matematika[i] + nilai_bahasa_inggris[i]) / 2.0;
 		if (rata_rata >= 70 || nilai_matematika[i] > 80) {
-			cout << nama_kandidat[i] << "\nDiterima" << endl;
+			cout << "=============================" << endl;
+			cout << nama_kandidat[i] << " [Diterima] " << endl;
 			jumlah_diterima++;
 		}
 		else {
-			cout << nama_kandidat[i] << "\nDitolak" << endl;
+			cout << "=============================" << endl;
+			cout << nama_kandidat[i] << " [Ditolak] " << endl;
 			jumlah_ditolak++;
 		}
 	}
