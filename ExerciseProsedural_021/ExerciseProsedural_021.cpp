@@ -28,4 +28,9 @@ int main() {
 			jumlah_tidak_diterima++;
 		}
 	}
+
+	cout << "jumlah kandidat yang di terima: " << jumlah_diterima << endl;
+	cout << "jumlah kandidat yang tidak di terima: " << jumlah_tidak_diterima << endl;
+
+	return 0;
 }
